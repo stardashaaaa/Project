@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body {
+font-family: 'Roboto';	
+color: #0f141f;
+background: #f1f1f1;
+}
+.text h4 {
+	margin: 0;
+}
+a {
+		color: #111;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	color: blue;
+}
+a:visited {
+	color: grey;
+}
+
+.card-1 {
+	background: white;
+	border: 2px;
+	padding: 15px 20px;
+	margin-bottom: 15px 10px;
+	
+}
+@media (max-width: 450px)
+
+}
+.border-1 {
+background: red;
+}
+.card-2 {
+	background: #00145f;
+	color: white;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.list{
+	padding: 0px 15px;
+}
+.list li {
+	color: yellow;
+	margin-bottom: 10px;
+	list-style: none;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #ccc;
+}
+.card-3 {
+	background: blue;
+	color: #fff;
+}
+.table {
+width: 100%;
+}
+.table td {
+	padding-bottom: 10px;
+	background: #87609f;
+}
+.table td:nth-child(3) {
+	background: #78643f;
+}
+
+.container{
+	margin: auto;
+	padding-top: 30px;
+}
+.btn {
+	color: #fff;
+	background: #111;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.btn:hover {
+	color: red;
+	opacity: .8
+}
+ .form h2 {
+ 	text-align: center;
+ }
+.form .form-1 {
+	display: inline-block;
+}
+ .form-1 label {
+ 	display: block;
+font-size: 14px;
+color: orange;
+margin-bottom: 10px;
+padding-bottom: 10px;
+ }
+ .form-1 input {
+ 	 	border: none;
+ 	padding: 15px 0px 10px;
+ 	color: black;
+ 	outline: none;
+ 	display: inline-block;
+ }
